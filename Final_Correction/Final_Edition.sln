@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{F20BC348-70D1-1942-CD4A-D94B2A9D16A9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.2D.Tilemap.Extras", "Unity.2D.Tilemap.Extras.csproj", "{CC7D49DE-60A9-C736-CEF1-F74717FF5504}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.2D.Tilemap.Extras.Editor", "Unity.2D.Tilemap.Extras.Editor.csproj", "{C46C55BF-703C-A48E-EED6-ED9FD91EA4F1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F20BC348-70D1-1942-CD4A-D94B2A9D16A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F20BC348-70D1-1942-CD4A-D94B2A9D16A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F20BC348-70D1-1942-CD4A-D94B2A9D16A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F20BC348-70D1-1942-CD4A-D94B2A9D16A9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CC7D49DE-60A9-C736-CEF1-F74717FF5504}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC7D49DE-60A9-C736-CEF1-F74717FF5504}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC7D49DE-60A9-C736-CEF1-F74717FF5504}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC7D49DE-60A9-C736-CEF1-F74717FF5504}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C46C55BF-703C-A48E-EED6-ED9FD91EA4F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C46C55BF-703C-A48E-EED6-ED9FD91EA4F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C46C55BF-703C-A48E-EED6-ED9FD91EA4F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C46C55BF-703C-A48E-EED6-ED9FD91EA4F1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

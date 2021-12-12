@@ -1,0 +1,75 @@
+using System;
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class ComponentBase : MonoBehaviour
+{
+    [Header("Sprite")]
+    [SerializeField] private Sprite damagedSprite;
+
+    [Header("Settings")]
+    [SerializeField] private int damage1 = 1;
+    [SerializeField] private int damage2 = 1;
+    [SerializeField] private int damage3 = 1;
+    [SerializeField] private bool isDamageable;
+    
+    private Health health;  
+    private SpriteRenderer spriteRenderer; 
+    private JarReward jarReward;
+    private Collider2D collider2D;
+
+    private void Start()
+    {
+        health = GetComponent<Health>();
+        spriteRenderer = GetComponent<SpriteRenderer>();
+        jarReward = GetComponent<JarReward>();
+        collider2D = GetComponent<Collider2D>();
+	}
+
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.CompareTag("Bullet"))
+        {
+            TakeDamage(damage1);
+        }
+        if (other.CompareTag("Bullet 1"))
+        {
+            TakeDamage(damage2);
+        }
+        if (other.CompareTag("Bullet 2"))
+        {
+            TakeDamage(damage3);
+        }
+    }
+
+    private void TakeDamage(int damage)
+    {
+        health.TakeDamage(damage);
+
+        if (health.CurrentHealth > 0)
+        {
+            if (isDamageable)
+            {
+                spriteRenderer.sprite = damagedSprite;
+            }
+        }
+        
+        if (health.CurrentHealth <= 0)
+        {
+            if (isDamageable)
+            {
+                // Box
+                Destroy(gameObject);
+            }
+            else
+            {
+                // Jar
+                spriteRenderer.sprite = damagedSprite;
+                collider2D.enabled = false;   
+                jarReward.GiveReward();             
+            }
+        }
+    }
+}
+

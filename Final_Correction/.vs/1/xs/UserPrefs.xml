@@ -1,0 +1,29 @@
+﻿<Properties StartupConfiguration="{77BB0C59-6EDF-441D-78FC-8511ED0AC6CC}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Health/MonsterHealth.cs">
+    <Files>
+      <File FileName="Assets/Scripts/Health/MonsterHealth.cs" Line="16" Column="6" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="1" expanded="True">
+            <Node name="Assets" expanded="True">
+              <Node name="Scripts" expanded="True">
+                <Node name="Health" expanded="True">
+                  <Node name="MonsterHealth.cs" selected="True" />
+                </Node>
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="efcfab9c-e5a4-488f-bb5c-9829908eff51" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
